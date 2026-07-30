@@ -1,8 +1,29 @@
 aid: kredete
 name: Kredete
-description: 'Kredete is a company surfaced as a portfolio company of partech, techstars and added to
-  the API Evangelist network as a stub for enrichment. Sector: Financial Services. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Kredete is an intelligent global finance app for diaspora and emerging-market
+  communities, founded in 2022 and operating across four continents. It moves money across
+  60+ markets at the mid-market rate with settlement in about ten seconds, issues US dollar
+  Visa cards accepted in 170+ countries, opens multi-currency accounts in the customer''s own
+  name, pays yield on US dollar savings held through partner US chartered institutions, and
+  reports rent and repayment history to the major US credit bureaus so customers build a US
+  credit file. Kredete for Business adds multi-currency operating accounts, corporate cards,
+  FedWire routing, payroll, and invoicing. An in-app agent runs these actions on the customer''s
+  behalf with confirmation. Kredete is a financial technology company, not a bank; remittance and
+  banking services are provided by partner US licensed financial institutions. Backed by Partech
+  and Techstars. As of this enrichment pass Kredete publishes no public developer API, developer
+  portal, SDK, or machine-readable API description.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kredete.io/og-image.png
 url: https://raw.githubusercontent.com/api-evangelist/kredete/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,23 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-public-api: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Financial Services
+- Payments
+- Remittance
+- Cross-Border Payments
+- Banking
+- Credit
+- Cards
+- Savings
+- Fintech
+- Emerging Markets
+- Africa
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +58,28 @@ maintainers:
 common:
 - type: Website
   url: https://www.kredete.io/
+- type: Blog
+  url: https://www.kredete.io/blog/
+- type: Support
+  url: https://www.kredete.io/faq/
+- type: Pricing
+  url: https://www.kredete.io/kredete-plus/
+- type: TermsOfService
+  url: https://www.kredete.io/legal/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.kredete.io/legal/privacy-policy/
+- type: Compliance
+  url: https://www.kredete.io/legal/licenses/
+- type: About
+  url: https://www.kredete.io/about/
+- type: Contact
+  url: https://www.kredete.io/contact/
+- type: DomainSecurity
+  url: security/kredete-domain-security.yml
+- type: LLMsTxt
+  url: llms/kredete-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
