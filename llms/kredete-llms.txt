@@ -1,0 +1,50 @@
+# Kredete
+
+> Kredete is an intelligent global finance app for diaspora and emerging-market
+> communities. Founded in 2022, it moves money across 60+ markets at the mid-market
+> rate, issues USD Visa cards, opens multi-currency accounts, pays yield on US dollar
+> savings, and reports rent and repayment history to the US credit bureaus so users
+> build a credit file. An in-app agent ("Prael") executes those actions on the user's
+> behalf with confirmation. Kredete is a financial technology company, not a bank;
+> money remittance and banking services are provided by partner US licensed financial
+> institutions. Kredete publishes no public developer API, developer portal, SDKs, or
+> machine-readable API specification as of this writing.
+
+## Products
+
+- [Send money](https://www.kredete.io/send/): Transfers across 60+ markets at the mid-market rate, settling in about ten seconds, to bank accounts, mobile money, and Kredete-to-Kredete tags.
+- [Cards](https://www.kredete.io/cards/): US dollar Visa cards, physical and virtual, accepted across 170+ countries with no FX markup.
+- [Accounts](https://www.kredete.io/accounts/): Multi-currency accounts opened in the user's own name, holding USD, GBP, EUR and more.
+- [Build credit](https://www.kredete.io/credit/): Rent, transfers, and builder-loan repayments reported to the major US credit bureaus.
+- [Savings](https://www.kredete.io/savings/): US dollar savings with interest accruing daily, held through partner US chartered institutions.
+- [Kredete+](https://www.kredete.io/kredete-plus/): Premium subscription tier with preferred transfer rates, lower fees, and monthly credit reports.
+- [Kredete for Business](https://www.kredete.io/business/): Multi-currency operating accounts, corporate cards, FedWire and routing, payroll, and multi-currency invoicing for businesses in emerging markets.
+- [Quick Actions / agentic finance](https://www.kredete.io/agentic-finance/): Natural-language agent that runs banking actions on the user's behalf with confirmation.
+
+## Company
+
+- [About](https://www.kredete.io/about/): Company background, founded 2022, team across four continents.
+- [Blog](https://www.kredete.io/blog/): Product announcements, funding news, and emerging-market payments commentary.
+- [Events](https://www.kredete.io/events/): Kredete-hosted gatherings, dinners, and panels.
+- [Careers](https://www.kredete.io/careers/): Open roles across engineering, design, product, compliance, and growth.
+- [Contact](https://www.kredete.io/contact/): Contact channels.
+
+## Support and legal
+
+- [FAQ / help centre](https://www.kredete.io/faq/): Accounts and wallets, transfers, cards, savings yield, credit building, security and privacy.
+- [Security](https://www.kredete.io/security/): Encryption in transit and at rest, FDIC pass-through insurance through partner institutions, biometric and two-factor authentication, in-app freeze and dispute flow.
+- [Terms and Policies](https://www.kredete.io/terms-and-policies/): Index of every legal document by region.
+- [Terms of Service](https://www.kredete.io/legal/terms-of-service/)
+- [Privacy Policy](https://www.kredete.io/legal/privacy-policy/)
+- [Licenses and Disclosures](https://www.kredete.io/legal/licenses/): Federal disclosures and state money transmitter licenses.
+
+## Regions
+
+- [Kredete Canada](https://www.kredete.io/ca/)
+- [Kredete Europe](https://www.kredete.io/eu/)
+
+## Notes for agents
+
+- There is no public API, developer portal, API reference, OpenAPI/AsyncAPI description, SDK, CLI, or MCP server published by Kredete. Do not assume one exists.
+- No `/.well-known/` discovery documents are served on kredete.io (all probed paths return 404).
+- Product surfaces are the consumer and business mobile/web apps only.

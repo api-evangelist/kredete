@@ -1,0 +1,22 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of https://www.kredete.io and https://kredete.io
+host: https://www.kredete.io
+notes: >-
+  No /.well-known/ discovery surface is published on either the apex or www host.
+  Every probed path returned 404. Kredete publishes no public developer API, so
+  there is no additional API host to probe. Recorded as verified absence, not a gap
+  to be filled by generation.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
