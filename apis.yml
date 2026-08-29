@@ -12,6 +12,17 @@ description: 'Kredete is an intelligent global finance app for diaspora and emer
   banking services are provided by partner US licensed financial institutions. Backed by Partech
   and Techstars. As of this enrichment pass Kredete publishes no public developer API, developer
   portal, SDK, or machine-readable API description.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
